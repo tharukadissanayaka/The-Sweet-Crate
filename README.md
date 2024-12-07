@@ -1,2 +1,2 @@
-# The-Sweet-Crate
+# The-Sweet-Crate GUI
 Sweets Ordering System
