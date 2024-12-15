@@ -1,0 +1,26 @@
+.top-corner-button {
+    position: absolute; /* Position relative to the closest positioned ancestor */
+    top: 60px; /* Distance from the top */
+    right: 60px; /* Distance from the right */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #4f311c; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08); /* Shadow for 3D effect */
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out; /* Smooth transition for hover effect */
+}
+
+/* Hover effect to make it look like the button is pressed */
+.top-corner-button:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2), 0 3px 6px rgba(0, 0, 0, 0.15); /* Darker shadow */
+    transform: translateY(-2px); /* Slightly lift the button when hovered */
+}
+
+/* Active state for the button */
+.top-corner-button:active {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2), 0 1px 3px rgba(0, 0, 0, 0.15); /* Slight shadow when clicked */
+    transform: translateY(2px); /* Push the button down when clicked */
+}
