@@ -7,9 +7,12 @@
     <title>Login Form</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(to bottom, #000000, #434343);
             
+            
+            font-family: Arial, sans-serif;
+            background-image: url('C:/Users/Tharuka Dissanayake/Desktop/GUI Project 1/Brown Illustarted World Chocolate Day Facebook Post (1).png');
+            background-position: right;
+            background-size: cover;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -17,7 +20,7 @@
             margin: 0;
         }
         .login-container {
-            background-color: #4f311c;
+            background: linear-gradient(to bottom,#b69266,#7c4114b0);
             padding: 20px;
             border-radius: 10px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -25,12 +28,12 @@
             height: 400px;
         }
         .login-container h2 {
-            color: #fff;
+            color: #000000;
             text-align: center;
             margin-bottom: 20px;
         }
         .login-container label {
-            color: #fff;
+            color: #000000;
             display: block;
             margin-bottom: 10px;
         }
@@ -52,10 +55,22 @@
             border-radius: 5px;
             cursor: pointer;
             font-weight: bold;
-            color: #4f311c;
+            color: #6b3333;
         }
         .login-container input[type="submit"]:hover {
             background-color: #dcdcdc;
+        }
+        .signup-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .signup-container a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        .signup-container a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
@@ -69,6 +84,10 @@
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
             <input type="submit" value="Login">
+        
+         <div class="signup-container">
+            <p>Don't have an account? <a href="signup.html">Sign Up</a></p>
+        </div>
         <script>
             document.querySelector('form').addEventListener('submit', function(event) {
                 event.preventDefault();
