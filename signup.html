@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page 3</title>
+    <style>
+       
+        body {
+       
+      
+            background-image: url('C:/Users/Tharuka Dissanayake/Desktop/GUI Project 1/Brown Illustarted World Chocolate Day Facebook Post (1).png');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <h2>Sign Up</h2>
+        <form action="/submit_signup" method="post">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit"> <a href="page3.html">Sign Up</a></button>
+        </form>
+    </div>
+    <style>
+        
+        .signup-container {
+            background: linear-gradient(to bottom,#b69266,#7c4114b0);
+            padding: 30px;
+            border-radius: 10px;
+            width: 400px;
+            height: 400px;
+            margin: 100px auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .signup-container h2 {
+            text-align: center;
+        }
+        .signup-container form {
+            display: flex;
+            flex-direction: column;
+        }
+        .signup-container label {
+            margin-bottom: 5px;
+        }
+        .signup-container input {
+            margin-bottom: 15px;
+            padding: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .signup-container button {
+            padding: 10px;
+            background-color: #b69266;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 200px;
+            align-self: center;
+        }
+        .signup-container button:hover {
+            background-color: rgb(114, 114, 222);
+        }
+    </style>
+</body>
+</html>
