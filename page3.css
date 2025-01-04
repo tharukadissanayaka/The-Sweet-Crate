@@ -1,0 +1,128 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('C:/Users/Tharuka Dissanayake/Desktop/GUI Project 1/Brown Illustarted World Chocolate Day Facebook Post (1).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 50px;
+}
+
+
+.search-input {
+    width: 60%;
+    max-width: 400px;
+    padding: 10px 15px;
+    border: 2px solid #ddd;
+    border-radius: 20px;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.search-input:focus {
+    border-color: #ff9800;
+    box-shadow: 0 4px 8px rgba(255, 152, 0, 0.2);
+}
+
+
+.search-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #ff9800;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.search-button:hover {
+    background-color: #ff5722;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.container {
+    text-align: center;
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+
+.image-button {
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 6px;
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+    cursor: pointer;
+    max-width: 300px;
+    width: 100%;
+    text-align: center; /* Align text under the image */
+}
+
+.image-button img {
+    width: 300px;
+    height: 350px;
+    display: block;
+    border: 3px solid transparent;
+    transition: border-color 0.3s;
+}
+
+/* Text below images */
+.image-label {
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #f0e5e5;
+    text-transform: capitalize;
+    transition: color 0.3s;
+}
+
+/* Hover effect for image buttons */
+.image-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.3);
+}
+
+.image-button:hover img {
+    border-color: #ff9800;
+}
+
+.image-button:hover .image-label {
+    color: #ff9800;
+}
+
+/* Active effect when the button is clicked */
+.image-button:active {
+    transform: scale(1);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-button:active img {
+    border-color: #ff5722;
+}
+
+/* Ensure proper spacing on smaller screens */
+@media (max-width: 768px) {
+    .search-input {
+        width: 80%;
+    }
+
+    .image-button {
+        max-width: 90%;
+    }
+}
+
