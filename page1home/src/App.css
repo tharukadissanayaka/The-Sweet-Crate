@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.App {
+  text-align: center;
+  background-image: url('C:/Users/Tharuka Dissanayake/Desktop/GUI Project 1/Brown Illustarted World Chocolate Day Facebook Post (1).png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+/* ImageButton*/
+
+.container {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr); 
+  justify-content: center; 
+  gap: 20px; 
+  padding: 30px; 
+}
+
+body.body-chocolates{
+  height: 180vh;
+}
+
+
+body.body-cakes{
+  height: 130vh;
+}
+
+body.body-brownies{
+  height: 200vh;
+}
+
+
+
