@@ -9,6 +9,7 @@ import PageChocolates from "./pages/PageChocolates";
 import AddToCart from "./components/AddToCart";
 import PageCakes from "./pages/PageCakes";
 import PageBrownies from "./pages/PageBrownies";
+import PageToffees from "./pages/PageToffees";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -54,6 +55,19 @@ function App() {
     };
   }, [location]);
 
+  useEffect(() => {
+    /* Apply unique body class based on the current route*/
+    if (location.pathname === "/PageToffees") {
+      document.body.classList.add("body-toffees");
+    } else {
+      document.body.classList.remove("body-toffees");
+    }
+
+    return () => {
+      document.body.classList.remove("body-toffees"); 
+    };
+  }, [location]);
+
   return (
     <div>
       <Routes>
@@ -62,18 +76,22 @@ function App() {
         <Route path="/SignupForm" element={<SignupForm />} />
         <Route path="/ImageButton" element={<ImageButton />} />
 
-        //paths of chocolates
+       
+
         <Route path="/PageChocolates" element={<PageChocolates cartItems={cartItems} setCartItems={setCartItems} />}/>
         <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
         
-        /* paths of cakes */
+        
         <Route path="/PageCakes" element={<PageCakes cartItems={cartItems} setCartItems={setCartItems} />}/>
         <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
 
-        //paths of brownies
+        
         <Route path="/PageBrownies" element={<PageBrownies cartItems={cartItems} setCartItems={setCartItems} />}/>
         <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
 
+        
+        <Route path="/PageToffees" element={<PageToffees cartItems={cartItems} setCartItems={setCartItems} />}/>
+        <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
       </Routes>
     </div>
   );
