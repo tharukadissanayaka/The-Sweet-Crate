@@ -10,6 +10,7 @@ import AddToCart from "./components/AddToCart";
 import PageCakes from "./pages/PageCakes";
 import PageBrownies from "./pages/PageBrownies";
 import PageToffees from "./pages/PageToffees";
+import PagePuddings from "./pages/PagePuddings";
 
 function App() {
   const [cartItems, setCartItems] = useState([]);
@@ -68,6 +69,20 @@ function App() {
     };
   }, [location]);
 
+
+  useEffect(() => {
+    /* Apply unique body class based on the current route*/
+    if (location.pathname === "/PagePuddings") {
+      document.body.classList.add("body-puddings");
+    } else {
+      document.body.classList.remove("body-puddings");
+    }
+
+    return () => {
+      document.body.classList.remove("body-puddings"); 
+    };
+  }, [location]);
+
   return (
     <div>
       <Routes>
@@ -91,6 +106,9 @@ function App() {
 
         
         <Route path="/PageToffees" element={<PageToffees cartItems={cartItems} setCartItems={setCartItems} />}/>
+        <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
+
+        <Route path="/PagePuddings" element={<PagePuddings cartItems={cartItems} setCartItems={setCartItems} />}/>
         <Route path="/cart"element={<AddToCart cartItems={cartItems} setCartItems={setCartItems} />} />
       </Routes>
     </div>
