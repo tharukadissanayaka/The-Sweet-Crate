@@ -15,7 +15,7 @@ const imageButtons = [
   { path: "/PageBrownies", src: browniesImg, label: "BROWNIES" },
   { path: "/PageToffees", src: toffeesImg, label: "TOFFEES" },
   { path: "/PagePuddings", src: puddingsImg, label: "PUDDINGS" },
-  { path: "PageMuffins", src: muffinsImg, label: "MUFFINS" },
+  { path: "/PageMuffins", src: muffinsImg, label: "MUFFINS" },
   { path: "/PageCookies", src: cookiesImg, label: "COOKIES" },
 ];
 
