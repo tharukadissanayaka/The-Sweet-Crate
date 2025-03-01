@@ -7,7 +7,7 @@ import browniesImg from "../assets/arantxa-aniorte-wIaYi63cmis-unsplash.jpg";
 import toffeesImg from "../assets/shaikh-irfan-icX_8YmcQNY-unsplash.jpg";
 import puddingsImg from "../assets/diliara-garifullina-alo1EspH-ec-unsplash.jpg";
 import muffinsImg from "../assets/photo_2025-01-11_13-11-01.jpg";
-import cookiesImg from "../assets/american-heritage-chocolate-DoK5qEy2L60-unsplash.jpg";
+
 
 const imageButtons = [
   { path: "/PageChocolates", src: chocolatesImg, label: "CHOCOLATES" },
@@ -16,15 +16,15 @@ const imageButtons = [
   { path: "/PageToffees", src: toffeesImg, label: "TOFFEES" },
   { path: "/PagePuddings", src: puddingsImg, label: "PUDDINGS" },
   { path: "/PageMuffins", src: muffinsImg, label: "MUFFINS" },
-  { path: "/PageCookies", src: cookiesImg, label: "COOKIES" },
+  
 ];
 
 
-const ImageButton = ({ columns = 4 }) => {
+const ImageButton = ({ columns = 3 }) => {
   const gridStyle = {
     display: "grid",
     gridTemplateColumns: `repeat(${columns}, 1fr)`,
-    gap: "20px",
+    gap: "40px 90px",
     justifyContent: "center",
   };
 
