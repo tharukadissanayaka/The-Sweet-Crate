@@ -1,0 +1,91 @@
+﻿<Window x:Class="GUIProject.LoginPage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUIProject"
+        mc:Ignorable="d"
+        Title="LoginPage" Height="450" Width="800">
+    <Grid>
+        <!-- Background Image -->
+        <Image Source="C:\Users\Tharuka Dissanayake\Desktop\GUI Project 1\Brown Illustarted World Chocolate Day Facebook Post (1).png"
+               Stretch="UniformToFill"/>
+
+        <!-- Login Container -->
+        <Border Width="400"
+                Height="400"
+                Background="White"
+                CornerRadius="20"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center"
+                Padding="20">
+            
+            <StackPanel>
+                <TextBlock Text="Login" 
+                           FontSize="30" 
+                           FontWeight="Bold" 
+                           Foreground="#4F311C" 
+                           HorizontalAlignment="Center"
+                           Margin="0,20,0,10" />
+                
+                <TextBlock Text="User Name" 
+                           FontSize="15" 
+                           FontWeight="Bold" 
+                           Foreground="#4F311C" 
+                           HorizontalAlignment="Left"
+                           Margin="0,5,0,0" />
+                <TextBox 
+                           Height="40" 
+                           Margin="0,10"
+                           Padding="10"
+                           Background="#EFEFEF" 
+                           BorderBrush="#CCCCCC"
+                           BorderThickness="1"
+                           FontSize="14"/>
+
+                <TextBlock Text="Password" 
+                           FontSize="15" 
+                           FontWeight="Bold" 
+                           Foreground="#4F311C" 
+                           HorizontalAlignment="Left"
+                           Margin="0,5,0,0" />
+                
+                <PasswordBox 
+                           Height="40"
+                           Margin="0,10"
+                           Padding="10"
+                           Background="#EFEFEF" 
+                           BorderBrush="#CCCCCC"
+                           BorderThickness="1"
+                           FontSize="14"/>
+
+                <Button  Content="Login"
+                         Height="40"
+                         Margin="0,20,0,10"
+                         Background="#4F311C"
+                         Foreground="White"
+                         BorderBrush="#4F311C"
+                         FontWeight="Bold"
+                         FontSize="16"
+                         Click="Login_Button"/>
+
+                <TextBlock Text="Don't have an account?"
+                           HorizontalAlignment="Center"
+                           Foreground="#4F311C" />
+
+                <Button Content="Sign Up"
+                        Width="100"
+                        Height="20"
+                        HorizontalAlignment="Center"
+                        Margin="0,10,0,0"
+                        Background="Transparent"
+                        Foreground="#4F311C"
+                        FontWeight="Bold"
+                        BorderBrush="#4F311C"
+                        BorderThickness="1"
+                        FontSize="12"
+                        Click="SignUp_Button"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Window>

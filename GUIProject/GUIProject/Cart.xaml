@@ -1,0 +1,83 @@
+﻿<Window x:Class="GUIProject.Cart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:GUIProject"
+        mc:Ignorable="d"
+        Title="Cart" Height="450" Width="800">
+    <Grid>
+        
+        
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="6*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="1*"/>
+
+        </Grid.ColumnDefinitions>
+        
+        <TextBlock Grid.Row="0" Grid.Column="0"
+           Grid.ColumnSpan="2"
+           HorizontalAlignment="Center"
+           FontWeight="Bold"
+           Padding="5"
+           Foreground="White"
+           Text="Your Cart" FontSize="25"/>
+        
+
+        <StackPanel Grid.Row="1" Grid.Column="1">
+           <Button FontSize="15" Padding="10"
+                   Margin="10"
+                   Background="#c5af9a"
+                   Foreground="#4F311C"
+                   Click="RemoveProduct_Click"
+                   
+                   >REMOVE PRODUCT</Button>
+
+            <Button FontSize="15" Padding="10"
+                    Margin="10"
+                    Background="#c5af9a"
+                    Foreground="#4F311C"
+                    Click="ConfirmOrder_Click">
+                    CONFIRM ORDER</Button>
+        </StackPanel>
+
+        
+        <DataGrid 
+             x:Name="itemGrid"
+             Grid.Row="1" Grid.Column="0"
+             AutoGenerateColumns="False"
+             Margin="10"
+             VerticalAlignment="Stretch"
+             HorizontalAlignment="Stretch">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Price" Binding="{Binding ItemPrice}" Width="*"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <TextBlock Grid.Row="2" Grid.Column="0"
+                   HorizontalAlignment="Right"
+                   VerticalAlignment="Center"
+                   FontSize="18"
+                   FontWeight="Bold"
+                   Foreground="White"
+                   Margin="10"
+                   Text="{Binding TotalSum, StringFormat='Total: ${0:F2}'}"/>
+
+        <Image Source="C:\Users\Tharuka Dissanayake\Desktop\GUI Project 1\Brown Illustarted World Chocolate Day Facebook Post (1).png"
+               Stretch="UniformToFill" 
+               Grid.RowSpan="3" 
+               Grid.ColumnSpan="2"
+               Panel.ZIndex="-1"/>
+        
+        
+
+    </Grid>
+</Window>

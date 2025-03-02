@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\aboutus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\aboutus.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\aboutus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\aboutus.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\homepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\browniespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\browniespage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|c:\\users\\tharuka dissanayake\\source\\repos\\guiproject\\guiproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{7F47634E-4EA9-40CD-95D3-B016FD119647}|GUIProject\\GUIProject.csproj|solutionrelative:guiproject\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AboutUs.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\AboutUs.xaml.cs",
+              "RelativeDocumentMoniker": "GUIProject\\AboutUs.xaml.cs",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\AboutUs.xaml.cs",
+              "RelativeToolTip": "GUIProject\\AboutUs.xaml.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:19:12.883Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomePage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\HomePage.xaml.cs",
+              "RelativeDocumentMoniker": "GUIProject\\HomePage.xaml.cs",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\HomePage.xaml.cs",
+              "RelativeToolTip": "GUIProject\\HomePage.xaml.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAAAFkAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T10:14:42.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\HomePage.xaml",
+              "RelativeDocumentMoniker": "GUIProject\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\HomePage.xaml",
+              "RelativeToolTip": "GUIProject\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T10:12:20.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AboutUs.xaml",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\AboutUs.xaml",
+              "RelativeDocumentMoniker": "GUIProject\\AboutUs.xaml",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\AboutUs.xaml*",
+              "RelativeToolTip": "GUIProject\\AboutUs.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T10:10:59.196Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "GUIProject\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\MainWindow.xaml.cs",
+              "RelativeToolTip": "GUIProject\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T09:14:38.227Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "GUIProject\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\MainWindow.xaml",
+              "RelativeToolTip": "GUIProject\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T09:14:28.867Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BrowniesPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\BrowniesPage.xaml",
+              "RelativeDocumentMoniker": "GUIProject\\BrowniesPage.xaml",
+              "ToolTip": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\BrowniesPage.xaml",
+              "RelativeToolTip": "GUIProject\\BrowniesPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-02T07:54:25.334Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
