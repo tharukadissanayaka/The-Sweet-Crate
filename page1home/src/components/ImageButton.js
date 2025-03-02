@@ -1,8 +1,8 @@
 import React from "react";
 import "../cssfiles/ImageButton.css";
 
-import chocolatesImg from "../assets/tetiana-bykovets-H22N-9s8AUw-unsplash.jpg";
-import cakesImg from "../assets/stephen-packwood-niXjaYv7wuE-unsplash.jpg";
+import chocolatesImg from "../assets/tetiana-bykovets-2SoEaPFcEt4-unsplash.jpg";
+import cakesImg from "../assets/kaouther-djouada-hcEDfkiVmMI-unsplash.jpg";
 import browniesImg from "../assets/arantxa-aniorte-wIaYi63cmis-unsplash.jpg";
 import toffeesImg from "../assets/shaikh-irfan-icX_8YmcQNY-unsplash.jpg";
 import puddingsImg from "../assets/diliara-garifullina-alo1EspH-ec-unsplash.jpg";

@@ -56,4 +56,3 @@ const AddToCart = ({ cartItems, setCartItems }) => {
 export default AddToCart;
 
 
-
