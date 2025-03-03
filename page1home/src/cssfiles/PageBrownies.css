@@ -40,11 +40,7 @@ body {
     margin-left:0;
   }
   
-  .imgBrow-button:hover {
-    transform: scale(1.02);
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3);
-  }
-  
+ 
   .imgBrow-button img {
     width: 110px;
     height: 70px;

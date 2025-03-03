@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "QdeUPPccvbs=",
+  "dgSpecHash": "jBZZwbbQn+U=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\GUIProject.csproj",
+  "projectFilePath": "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\GUIProject.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Tharuka Dissanayake\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Tharuka Dissanayake\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",
@@ -60,5 +60,12 @@
     "C:\\Users\\Tharuka Dissanayake\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\8.0.11\\microsoft.aspnetcore.app.ref.8.0.11.nupkg.sha512",
     "C:\\Users\\Tharuka Dissanayake\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\8.0.11\\microsoft.netcore.app.host.win-x64.8.0.11.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1900",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Error occurred while getting package vulnerability data: Unable to load the service index for source https://api.nuget.org/v3/index.json."
+    }
+  ]
 }

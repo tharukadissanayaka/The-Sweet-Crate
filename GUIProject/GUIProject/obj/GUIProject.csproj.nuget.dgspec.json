@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\GUIProject.csproj": {}
+    "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\GUIProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\GUIProject.csproj": {
+    "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\GUIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\GUIProject.csproj",
+        "projectUniqueName": "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\GUIProject.csproj",
         "projectName": "GUIProject",
-        "projectPath": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\GUIProject.csproj",
+        "projectPath": "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\GUIProject.csproj",
         "packagesPath": "C:\\Users\\Tharuka Dissanayake\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Tharuka Dissanayake\\source\\repos\\GUIProject\\GUIProject\\obj\\",
+        "outputPath": "C:\\Users\\Tharuka Dissanayake\\Documents\\GitHub\\The-Sweet-Crate\\GUIProject\\GUIProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Tharuka Dissanayake\\AppData\\Roaming\\NuGet\\NuGet.Config",

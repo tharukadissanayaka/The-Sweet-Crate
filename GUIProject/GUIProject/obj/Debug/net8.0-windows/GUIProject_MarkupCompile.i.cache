@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Tharuka Dissanayake\source\repos\GUIProject\GUIProject\obj\Debug\net8.0-windows\
+C:\Users\Tharuka Dissanayake\Documents\GitHub\The-Sweet-Crate\GUIProject\GUIProject\obj\Debug\net8.0-windows\
 GUIProject
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\Tharuka Dissanayake\source\repos\GUIProject\GUIProject\App.xaml
+C:\Users\Tharuka Dissanayake\Documents\GitHub\The-Sweet-Crate\GUIProject\GUIProject\App.xaml
 12712134207
 
 22944591906
 217-1846648178
 AboutUs.xaml;BrowniesPage.xaml;CakesPage.xaml;Cart.xaml;ChocolatesPage.xaml;HomePage.xaml;LoginPage.xaml;MainWindow.xaml;MuffinsPage.xaml;PuddingsPage.xaml;SignUpPage.xaml;ToffeesPage.xaml;
 
-True
+False
 
