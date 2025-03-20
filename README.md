@@ -2,7 +2,7 @@
 Sweets Ordering System
 
 Introducing The Sweet Crate
-
+---------------------------
 A seamless, dual-platform solution for managing your sweet shop business, combining a ReactJS web application with a C# desktop app, both powered by a centralized MySQL backend.
 
 Key Features
